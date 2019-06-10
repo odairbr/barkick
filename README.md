@@ -73,6 +73,9 @@ There a few breaking changes to be aware of:
 - `GTIN` is now `Barkick::GTIN`
 - 8-digit codes now raise an `ArgumentError` if `type` is not specified
 
+### Ruby 1.9.3
+
+- Working with ruby 1.9.3
 ## History
 
 View the [changelog](https://github.com/ankane/barkick/blob/master/CHANGELOG.md)

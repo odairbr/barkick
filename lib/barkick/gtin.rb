@@ -1,6 +1,6 @@
 module Barkick
   class GTIN
-    def initialize(number, type: nil)
+    def initialize(number, type = nil)
       @number = number.to_s
 
       if @number.length == 8
